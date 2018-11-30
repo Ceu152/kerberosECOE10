@@ -1,0 +1,4 @@
+Rode o comando somente uma vez .\kdcinit D:\kerberosServer D:\kerberosServer\keytab\
+Rode o comando .\start-kdc D:\kerberosServer D:\kerberosServer\workdir
+Depoois .\kadmin D:\kerberosServer -k D:\kerberosServer\keytab\admin.keytab
+Depois .\kinit -conf D:\kerberosServer kadmin/MSI@MSI
